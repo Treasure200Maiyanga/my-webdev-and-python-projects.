@@ -3,7 +3,7 @@ Features
 Digit input (0–9) and decimal point
 Operators: add (+), subtract (−), multiply (×), divide (÷)
 Clear (C) — resets the calculator
-Backspace (⌫) — deletes the last character entered
+Backspace (<-) — deletes the last character entered
 Equals (=) — evaluates the expression and shows the result
 Prevents two operators being entered back-to-back (typing a second operator replaces the first)
 How It Works
