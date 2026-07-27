@@ -1,4 +1,10 @@
 # Documentation for my web calculator.
+
+1) Important notice the required files must be downloaded and put in the same path/folder for it to work for example, the calculator.html, calculator.css, and calcultor.js must be all put in one folder together.
+
+2) This goes for the contact homepage and project file sets all project, contact and homepage files must all be in one folder then it can be run there
+
+
 Features
 Digit input (0–9) and decimal point
 Operators: add (+), subtract (−), multiply (×), divide (÷)
