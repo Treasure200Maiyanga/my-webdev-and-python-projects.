@@ -1,0 +1,134 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right, #d9a7c7, #fffcdc);
+    text-align: center;
+}
+
+.bio {
+    width: 60%;
+    margin: auto;
+}
+
+
+
+
+
+/* Main Introduction Paragraph: About me*/
+.aboutme{
+    color: rgb(0, 0, 0);
+}
+
+.aboutme2{
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+
+
+
+/* Top Links, Home Contact Projects.*/
+.Home{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.Home:hover {
+    text-decoration: underline;
+}
+
+
+.Contact{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.Contact:hover {
+    text-decoration: underline;
+}
+
+
+.Project{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.Project:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+.intro {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.219);
+    transition: transform 0.3s ease;
+
+}
+.intro:hover{
+     transform: scale(1.1);
+}
+.intro h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.intro p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+
+
+.a {
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+    transition: transform 0.3s ease;
+}
+
+.a:hover {
+    transform: scale(1.1);
+}
+
+.proj_bttn {
+    background: white;
+    color: #333;
+    text-decoration: none;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 5px;
+    transition: 0.3s;
+    transition: transform 0.3s ease;
+}
+
+.proj_bttn:hover {
+    background: #f0f0f0c7;
+    transform: scale(1.1);
+}
+
+

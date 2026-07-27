@@ -1,0 +1,167 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right, #d9a7c7, #fffcdc);
+    text-align: center;
+}
+
+.square {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 200px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.219);
+    transition: transform 0.3s ease;
+
+}
+
+.square:hover{
+     transform: scale(1.1);
+}
+
+
+.text_1{
+    background: white;
+    color: #333;
+    text-decoration: none;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.text_2{
+    background: white;
+    color: #333;
+    text-decoration: none;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.add{
+    background: white;
+    color: #333;
+    text-decoration: none;
+    padding: 6px 15px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+
+
+/* Top Links, Home Contact Projects.*/
+.Home{
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.3s ease;
+}
+.Home:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+
+}
+
+
+.Contact{
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.3s ease;
+}
+.Contact:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+
+}
+
+
+.Project{
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.3s ease;
+}
+.Project:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+
+}
+
+
+/*Links to Projects.*/
+.portfweb{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.3s ease;
+}
+.portfweb:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+
+}
+
+
+.contactweb{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.3s ease;
+}
+.contactweb:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+
+}
+
+
+
+.calcweb{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.3s ease;
+}
+.calcweb:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+
+}
+
+
+.pygame{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.3s ease;
+}
+.pygame:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+
+}
+
+.title{
+    margin-left: 5%;
+    transition: transform 0.3s ease;
+}
+.title:hover{
+    transform: scale(1.5);
+
+}
+

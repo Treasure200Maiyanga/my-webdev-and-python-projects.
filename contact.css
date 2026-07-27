@@ -1,0 +1,88 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right, #d9a7c7, #fffcdc);
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Top Links, Home Contact Projects. */
+.Home,
+.Contact,
+.Project {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.Home:hover,
+.Contact:hover,
+.Project:hover {
+    text-decoration: underline;
+}
+
+.contact-card {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.219);
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: scale(1.05);
+}
+
+.contact-card h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 80%;
+    background: white;
+    color: #333;
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.contact-link:hover {
+    background: #d9a7c7;
+    color: white;
+    transform: scale(1.05);
+}
+
+.icon {
+    font-weight: bold;
+    font-size: 18px;
+}
