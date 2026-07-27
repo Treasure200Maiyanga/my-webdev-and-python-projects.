@@ -4,6 +4,8 @@
 
 2) This goes for the contact homepage and project file sets all project, contact and homepage files must all be in one folder then it can be run there
 
+3) the python files can be download and run stand alone either via terminal or through desired ide/code editor 
+
 
 Features
 Digit input (0–9) and decimal point
